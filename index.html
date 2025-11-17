@@ -13,11 +13,13 @@
     <meta property="og:title" content="Free Image Compressor Online - Reduce Image Size">
     <meta property="og:description" content="Compress JPG, PNG, WebP images online. Reduce file size by up to 80% without quality loss.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg">
+    <!-- Line 16 ko change karein -->
+    <link rel="canonical" href="https://imagecom3.vercel.app/"> 
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://yourwebsite.com/image-compressor">
     
+    <!-- Line 20 ko update karein -->
+    <meta property="og:image" content="https://imagecom3.vercel.app/og-image.jpg">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     
@@ -25,20 +27,23 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8937289257611386" crossorigin="anonymous"></script>
                
     <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Free Image Compressor",
-      "description": "Online tool to compress and reduce image file sizes without quality loss",
-      "url": "https://yourwebsite.com/image-compressor",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
+    <!-- Line 28-42 ko update karein -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication", 
+  "name": "Free Image Compressor",
+  "description": "Online tool to compress and reduce image file sizes without quality loss",
+  "url": "https://imagecom3.vercel.app/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+
       "author": {
         "@type": "Organization",
         "name": "ImageTools"
